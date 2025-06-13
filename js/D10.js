@@ -664,4 +664,4 @@ function isItPrime(n) {
   return true;
 }
 
-console.log(isItPrime(50));
+console.log(isItPrime(30));
