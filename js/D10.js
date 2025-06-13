@@ -656,7 +656,7 @@ const remove = () => {
 function isItPrime(n) {
   // chiedo se il parametro < 2 allora ritorna falso
   if (n < 2) return false;
-  // con Math.sqrt del parametro ciclo partendo da 2
+  // parto da 2 finchè non trova un numero minore o uguale alla sua radice quadrata
   for (let i = 2; i <= Math.sqrt(n); i++) {
     // se il parametro ha come resto 0 allora ritorna falso
     if (n % i === 0) return false;
